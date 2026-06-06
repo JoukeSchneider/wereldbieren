@@ -34,8 +34,7 @@ const connectDB = async () => {
                                         });
 
                                         // Product Routes (to be implemented)
-                                        // app.use('/api/products', require('./routes/products'));
-
+app.use('/api/products', require('./routes/products'));
                                         // Error Handling Middleware
                                         app.use((err, req, res, next) => {
                                           console.error(err.stack);
